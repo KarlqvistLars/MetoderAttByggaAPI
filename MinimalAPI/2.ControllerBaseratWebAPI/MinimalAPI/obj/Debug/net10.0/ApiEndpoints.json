@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "MinimalAPI.Controller.HelloController",
+    "Method": "Get",
+    "RelativePath": "api/Hello",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MinimalAPI.Controller.HelloController",
+    "Method": "GetName",
+    "RelativePath": "api/Hello/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "MinimalAPI.Program\u002B\u003C\u003Ec",
     "Method": "\u003CMain\u003Eb__0_0",
     "RelativePath": "hello",
