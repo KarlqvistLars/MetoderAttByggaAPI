@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "MinimalAPI.Controller.HelloController",
+    "ContainingType": "MinimalAPI.Controller.TestController",
     "Method": "Get",
-    "RelativePath": "api/Hello",
+    "RelativePath": "api/Test",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -10,34 +10,18 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "MinimalAPI.Controller.HelloController",
-    "Method": "GetName",
-    "RelativePath": "api/Hello/{name}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "name",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "MinimalAPI.Program\u002B\u003C\u003Ec",
-    "Method": "\u003CMain\u003Eb__0_0",
-    "RelativePath": "hello",
+    "Method": "\u003CMain\u003Eb__0_1",
+    "RelativePath": "minimal/test",
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.String",
+        "Type": "\u003C\u003Ef__AnonymousType0\u00601[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
-          "text/plain"
+          "application/json"
         ],
         "StatusCode": 200
       }
@@ -45,18 +29,12 @@
   },
   {
     "ContainingType": "MinimalAPI.Program\u002B\u003C\u003Ec",
-    "Method": "\u003CMain\u003Eb__0_1",
-    "RelativePath": "hello/{name}",
+    "Method": "\u003CMain\u003Eb__0_0",
+    "RelativePath": "ping",
     "HttpMethod": "GET",
     "IsController": false,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "name",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": [
       {
         "Type": "System.String",

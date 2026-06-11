@@ -7,13 +7,12 @@ namespace MinimalAPI
         {
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddControllers();
-
             var app = builder.Build();
-            app.MapGet("/hello", () => "Hej från Minimal API!");
-            app.MapGet("/hello/{name}", (string name) => $"Hej {name}!");
-
+            // Minimal API
+            app.MapGet("/ping", () => "pong");
+            app.MapGet("/minimal/test", () => new { message = "Minimal API" });
+            // Controllers
             app.MapControllers();
-
             app.Run();
         }
     }

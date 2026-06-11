@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\2.ControllerBaseratWebAPI\\MinimalAPI\\MinimalAPI.csproj": {}
+    "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\3.BlandatAPI\\MinimalAPI\\MinimalAPI.csproj": {}
   },
   "projects": {
-    "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\2.ControllerBaseratWebAPI\\MinimalAPI\\MinimalAPI.csproj": {
+    "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\3.BlandatAPI\\MinimalAPI\\MinimalAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\2.ControllerBaseratWebAPI\\MinimalAPI\\MinimalAPI.csproj",
+        "projectUniqueName": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\3.BlandatAPI\\MinimalAPI\\MinimalAPI.csproj",
         "projectName": "MinimalAPI",
-        "projectPath": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\2.ControllerBaseratWebAPI\\MinimalAPI\\MinimalAPI.csproj",
+        "projectPath": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\3.BlandatAPI\\MinimalAPI\\MinimalAPI.csproj",
         "packagesPath": "C:\\Users\\larsk\\.nuget\\packages\\",
-        "outputPath": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\2.ControllerBaseratWebAPI\\MinimalAPI\\obj\\",
+        "outputPath": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\3.BlandatAPI\\MinimalAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

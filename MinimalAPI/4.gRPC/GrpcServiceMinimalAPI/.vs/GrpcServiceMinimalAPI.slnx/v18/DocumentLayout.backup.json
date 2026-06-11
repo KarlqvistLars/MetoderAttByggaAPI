@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\4.gRPC\\GrpcServiceMinimalAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C7FD42FB-00C2-4AA4-8B68-B52D8E4BB482}|GrpcServiceMinimalAPI\\GrpcServiceMinimalAPI.csproj|c:\\projekt\\2026\\26014_dotnetutb\\code\\api\\metoderattbyggaapi\\minimalapi\\4.grpc\\grpcserviceminimalapi\\grpcserviceminimalapi\\protos\\greet.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{C7FD42FB-00C2-4AA4-8B68-B52D8E4BB482}|GrpcServiceMinimalAPI\\GrpcServiceMinimalAPI.csproj|solutionrelative:grpcserviceminimalapi\\protos\\greet.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7FD42FB-00C2-4AA4-8B68-B52D8E4BB482}|GrpcServiceMinimalAPI\\GrpcServiceMinimalAPI.csproj|c:\\projekt\\2026\\26014_dotnetutb\\code\\api\\metoderattbyggaapi\\minimalapi\\4.grpc\\grpcserviceminimalapi\\grpcserviceminimalapi\\services\\greeterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7FD42FB-00C2-4AA4-8B68-B52D8E4BB482}|GrpcServiceMinimalAPI\\GrpcServiceMinimalAPI.csproj|solutionrelative:grpcserviceminimalapi\\services\\greeterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "greet.proto",
+              "DocumentMoniker": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\4.gRPC\\GrpcServiceMinimalAPI\\GrpcServiceMinimalAPI\\Protos\\greet.proto",
+              "RelativeDocumentMoniker": "GrpcServiceMinimalAPI\\Protos\\greet.proto",
+              "ToolTip": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\4.gRPC\\GrpcServiceMinimalAPI\\GrpcServiceMinimalAPI\\Protos\\greet.proto",
+              "RelativeToolTip": "GrpcServiceMinimalAPI\\Protos\\greet.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2026-06-11T19:02:09.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GreeterService.cs",
+              "DocumentMoniker": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\4.gRPC\\GrpcServiceMinimalAPI\\GrpcServiceMinimalAPI\\Services\\GreeterService.cs",
+              "RelativeDocumentMoniker": "GrpcServiceMinimalAPI\\Services\\GreeterService.cs",
+              "ToolTip": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\4.gRPC\\GrpcServiceMinimalAPI\\GrpcServiceMinimalAPI\\Services\\GreeterService.cs",
+              "RelativeToolTip": "GrpcServiceMinimalAPI\\Services\\GreeterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T19:01:54.599Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 194,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

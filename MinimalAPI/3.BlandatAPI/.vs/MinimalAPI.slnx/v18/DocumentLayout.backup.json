@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\2.ControllerBaseratWebAPI\\",
+  "WorkspaceRootPath": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\3.BlandatAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6FBFEEE-2D41-BDF9-D30B-37B2CE953581}|MinimalAPI\\MinimalAPI.csproj|c:\\projekt\\2026\\26014_dotnetutb\\code\\api\\metoderattbyggaapi\\minimalapi\\2.controllerbaseratwebapi\\minimalapi\\controller\\hellocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6FBFEEE-2D41-BDF9-D30B-37B2CE953581}|MinimalAPI\\MinimalAPI.csproj|solutionrelative:minimalapi\\controller\\hellocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6FBFEEE-2D41-BDF9-D30B-37B2CE953581}|MinimalAPI\\MinimalAPI.csproj|c:\\projekt\\2026\\26014_dotnetutb\\code\\api\\metoderattbyggaapi\\minimalapi\\3.blandatapi\\minimalapi\\controller\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6FBFEEE-2D41-BDF9-D30B-37B2CE953581}|MinimalAPI\\MinimalAPI.csproj|solutionrelative:minimalapi\\controller\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6FBFEEE-2D41-BDF9-D30B-37B2CE953581}|MinimalAPI\\MinimalAPI.csproj|c:\\projekt\\2026\\26014_dotnetutb\\code\\api\\metoderattbyggaapi\\minimalapi\\2.controllerbaseratwebapi\\minimalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C6FBFEEE-2D41-BDF9-D30B-37B2CE953581}|MinimalAPI\\MinimalAPI.csproj|c:\\projekt\\2026\\26014_dotnetutb\\code\\api\\metoderattbyggaapi\\minimalapi\\3.blandatapi\\minimalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6FBFEEE-2D41-BDF9-D30B-37B2CE953581}|MinimalAPI\\MinimalAPI.csproj|solutionrelative:minimalapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -35,12 +35,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HelloController.cs",
-              "DocumentMoniker": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\2.ControllerBaseratWebAPI\\MinimalAPI\\Controller\\HelloController.cs",
-              "RelativeDocumentMoniker": "MinimalAPI\\Controller\\HelloController.cs",
-              "ToolTip": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\2.ControllerBaseratWebAPI\\MinimalAPI\\Controller\\HelloController.cs",
-              "RelativeToolTip": "MinimalAPI\\Controller\\HelloController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA4AAAAAAAAAA==",
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\3.BlandatAPI\\MinimalAPI\\Controller\\TestController.cs",
+              "RelativeDocumentMoniker": "MinimalAPI\\Controller\\TestController.cs",
+              "ToolTip": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\3.BlandatAPI\\MinimalAPI\\Controller\\TestController.cs",
+              "RelativeToolTip": "MinimalAPI\\Controller\\TestController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-11T18:05:22.45Z",
               "EditorCaption": ""
@@ -49,11 +49,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\2.ControllerBaseratWebAPI\\MinimalAPI\\Program.cs",
+              "DocumentMoniker": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\3.BlandatAPI\\MinimalAPI\\Program.cs",
               "RelativeDocumentMoniker": "MinimalAPI\\Program.cs",
-              "ToolTip": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\2.ControllerBaseratWebAPI\\MinimalAPI\\Program.cs",
+              "ToolTip": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\3.BlandatAPI\\MinimalAPI\\Program.cs",
               "RelativeToolTip": "MinimalAPI\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-11T17:48:56.281Z",
               "EditorCaption": ""
