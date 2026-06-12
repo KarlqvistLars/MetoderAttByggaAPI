@@ -10,22 +10,20 @@ import { CommonModule } from '@angular/common';
   styleUrl: './signalr.css',
 })
 export class Signalr implements OnInit {
-send() {
+  signalCount:number = 0;
+  messages: string[] = [];
 
-  
-  this.signalr.sendMessage('AngularClient', 'Hej från Angular!');
-  // this.signalr.receiveMessages();
-  
+  send() {
+    ++this.signalCount;
+    this.signalr.sendMessage('AngularClient', `Sänder meddelande nr: ${this.signalCount} från Angular`);
     this.signalr.onMessage((user, message) => {
-    // this.messages.push(`${user}: ${message}`);
-    this.messages = [`${user}: ${message}`];
-});
-
-}
-messages: any;
-
+      this.messages = [`${user}: ${message}`];
+    });
+    
+  }
+  
   constructor(private signalr: SignalrService) {}
-
+  
   ngOnInit(): void {    
     this.messages = [];
     this.signalr.startConnection();

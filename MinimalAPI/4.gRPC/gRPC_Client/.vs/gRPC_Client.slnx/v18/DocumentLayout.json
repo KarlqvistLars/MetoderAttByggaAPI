@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\4.gRPC\\gRPC_Client\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C98D873A-E76A-4389-804C-042ACD8BCA8C}|gRPC_Client\\gRPC_Client.csproj|c:\\projekt\\2026\\26014_dotnetutb\\code\\api\\metoderattbyggaapi\\minimalapi\\4.grpc\\grpc_client\\grpc_client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C98D873A-E76A-4389-804C-042ACD8BCA8C}|gRPC_Client\\gRPC_Client.csproj|solutionrelative:grpc_client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{841D68C1-BA69-A2BC-D452-7E7D9FBC0950}|gRPC_Client\\gRPC_Client.csproj|c:\\projekt\\2026\\26014_dotnetutb\\code\\api\\metoderattbyggaapi\\minimalapi\\4.grpc\\grpc_client\\grpc_client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{841D68C1-BA69-A2BC-D452-7E7D9FBC0950}|gRPC_Client\\gRPC_Client.csproj|solutionrelative:grpc_client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{841D68C1-BA69-A2BC-D452-7E7D9FBC0950}|gRPC_Client\\gRPC_Client.csproj|c:\\projekt\\2026\\26014_dotnetutb\\code\\api\\metoderattbyggaapi\\minimalapi\\4.grpc\\grpc_client\\grpc_client\\protos\\greet.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{841D68C1-BA69-A2BC-D452-7E7D9FBC0950}|gRPC_Client\\gRPC_Client.csproj|solutionrelative:grpc_client\\protos\\greet.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -23,6 +27,22 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "greet.proto",
+              "DocumentMoniker": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\4.gRPC\\gRPC_Client\\gRPC_Client\\Protos\\greet.proto",
+              "RelativeDocumentMoniker": "gRPC_Client\\Protos\\greet.proto",
+              "ToolTip": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\4.gRPC\\gRPC_Client\\gRPC_Client\\Protos\\greet.proto",
+              "RelativeToolTip": "gRPC_Client\\Protos\\greet.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2026-06-12T06:44:24.22Z"
             },
             {
               "$type": "Document",

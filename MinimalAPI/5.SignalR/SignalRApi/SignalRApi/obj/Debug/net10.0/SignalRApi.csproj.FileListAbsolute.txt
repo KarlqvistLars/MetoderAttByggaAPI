@@ -34,4 +34,3 @@ C:\PROJEKT\2026\26014_dotnetUtb\code\API\MetoderAttByggaAPI\MinimalAPI\5.SignalR
 C:\PROJEKT\2026\26014_dotnetUtb\code\API\MetoderAttByggaAPI\MinimalAPI\5.SignalR\SignalRApi\SignalRApi\obj\Debug\net10.0\SignalRApi.genruntimeconfig.cache
 C:\PROJEKT\2026\26014_dotnetUtb\code\API\MetoderAttByggaAPI\MinimalAPI\5.SignalR\SignalRApi\SignalRApi\obj\Debug\net10.0\ref\SignalRApi.dll
 C:\PROJEKT\2026\26014_dotnetUtb\code\API\MetoderAttByggaAPI\MinimalAPI\5.SignalR\SignalRApi\SignalRApi\bin\Debug\net10.0\SignalRApi.staticwebassets.runtime.json
-C:\PROJEKT\2026\26014_dotnetUtb\code\API\MetoderAttByggaAPI\MinimalAPI\5.SignalR\SignalRApi\SignalRApi\obj\Debug\net10.0\compressed\yvxqwta00j-{0}-l7uk9vwe3m-l7uk9vwe3m.gz
