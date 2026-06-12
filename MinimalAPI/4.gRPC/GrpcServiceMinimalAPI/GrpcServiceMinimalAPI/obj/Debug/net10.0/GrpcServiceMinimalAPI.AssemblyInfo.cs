@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GrpcServiceMinimalAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+968a0dc051dae533b412d52d82d5da78c9d606b7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d620ddc6585a4ed79d36c49f0a6297718b9bd10c")]
 [assembly: System.Reflection.AssemblyProductAttribute("GrpcServiceMinimalAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GrpcServiceMinimalAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
