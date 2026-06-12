@@ -1,5 +1,5 @@
 Här är en sammanfattning i markdown-format för hur du sätter upp ett gRPC i ASP.NET Core, insamlat från **Chat GPT, Gemini** kontrollerat med **Perplexity** och sammanställt til md-fil av **ChatGPT**:<br>
-### Köra denna projetkod efter denna [instruktion]().
+### Köra denna projetkod efter denna [instruktion](INSTRUCTIONS.md).
 <br>
 
 # Sätta upp ett gRPC i ASP.NET Core
