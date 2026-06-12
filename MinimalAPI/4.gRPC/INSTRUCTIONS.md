@@ -7,20 +7,18 @@ Kör filen gRPC_Client.exe från:
 cd \MetoderAttByggaAPI\MinimalAPI\4.gRPC\gRPC_Client\gRPC_Client\bin\Debug\net10.0\
 .\gRPC_Client.exe
 
+<<<<<<< HEAD
 Då skall svaret bli:
 
 Hej Lars!<br> då Namn hämtas från funktionen SayHelloAsync();
+=======
+Då skall svaret bli: **Hello Lars** <br> då Namn hämtas från funktionen SayHelloAsync();
+>>>>>>> 238d682813f8f5514c3eeb170b5b306d73e13f8a
 
 ```
-            var reply = await client.SayHelloAsync(
-                new HelloRequest {
-                    Name = "Lars"
-                });
+var reply = await client.SayHelloAsync(
+    new HelloRequest {
+         Name = "Lars"
+    });
 ```
-
-```
-API-endpoints:
-• GET /ping → Minimal API
-• GET /minimal/test → Minimal API
-• GET /api/test → Controller
-```
+Granska koden för att förstå hur den fungerar.
