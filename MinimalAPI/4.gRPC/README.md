@@ -1,4 +1,4 @@
-Här är en sammanfattning i markdown-format för hur du sätter upp ett gRPC i ASP.NET Core:
+Här är en sammanfattning i markdown-format för hur du sätter upp ett gRPC i ASP.NET Core, insamlat från **Chat GPT, Gemini** kontrollerat med **Perplexity** och sammanställt til md-fil av **ChatGPT**:
 <br>
 # Sätta upp ett gRPC i ASP.NET Core
 
