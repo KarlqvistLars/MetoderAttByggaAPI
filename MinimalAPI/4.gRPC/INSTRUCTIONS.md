@@ -9,7 +9,7 @@ cd \MetoderAttByggaAPI\MinimalAPI\4.gRPC\gRPC_Client\gRPC_Client\bin\Debug\net10
 
 Då skall svaret bli:
 
-Hej Lars! då Namn hämtas från funktionen SayHelloAsync();
+Hej Lars!<br> då Namn hämtas från funktionen SayHelloAsync();
 
 ```
             var reply = await client.SayHelloAsync(

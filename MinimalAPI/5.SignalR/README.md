@@ -1,22 +1,25 @@
-Här är en sammanfattning i markdown-format för hur du sätter upp ett SignalR i ASP.NET Core:
+Här är en sammanfattning för hur du sätter upp ett SignalR i ASP.NET Core, insamlat från **Chat GPT, Gemini** kontrollerat med **Perplexity** och sammanställt til md-fil av **ChatGPT**:<br>
+
+### Köra denna projektkod efter denna [instruktion](INSTRUCTIONS.md).
+<br>
 
 # Sätta upp ett SignalR i ASP.NET Core
 
 ## Vad är SignalR?
-SignalR är en open-source library för ASP.NET som förenklar real-time kommunikation mellan server och klient. Det tillåter server-side code att push content till connected clients instantaneously [web:21][web:23].
+SignalR är en open-source library för ASP.NET som förenklar real-time kommunikation mellan server och klient. Det tillåter server-side code att push content till connected clients instantaneously.
 
 ### Nyckelfunktioner
 | Funktion | Beskrivning |
 |----------|-------------|
-| **Real-time Communication** | Bi-directional kommunikation mellan server och klient [web:23] |
-| **Automatic Reconnection** | Automatisk reconnect om connection falls [web:23] |
-| **Multiple Transport Options** | Väljer bästa transport (WebSockets, Server-Sent Events, Long Polling) [web:23] |
-| **Connection Management** | Hanterar connections automatiskt och scale ut för stora antal [web:23] |
+| **Real-time Communication** | Bi-directional kommunikation mellan server och klient |
+| **Automatic Reconnection** | Automatisk reconnect om connection falls |
+| **Multiple Transport Options** | Väljer bästa transport (WebSockets, Server-Sent Events, Long Polling) |
+| **Connection Management** | Hanterar connections automatiskt och scale ut för stora antal |
 
 ## Förutsättningar
 - **.NET 8 SDK** eller senare [web:21][web:22]
-- **Visual Studio 2022** eller **Visual Studio Code** med C# Dev Kit [web:21]
-- **HTTPS development certificate** (rekommenderat för development) [web:21]
+- **Visual Studio 2022** eller **Visual Studio Code** med C# Dev Kit
+- **HTTPS development certificate** (rekommenderat för development)
 
 ## Steg 1: Skapa nytt projekt
 
@@ -25,19 +28,17 @@ SignalR är en open-source library för ASP.NET som förenklar real-time kommuni
 dotnet new webapi -n RealTimeApp
 cd RealTimeApp
 ```
-[web:22][web:24]
 
 ### Visual Studio Code / Terminal (Razor Pages)
 ```bash
 dotnet new webapp -o SignalRChat
 cd SignalRChat
 ```
-[web:21]
 
 ### Visual Studio
 1. Välj **New Project**
 2. Sök efter **ASP.NET Core Web App (Razor Pages)** ELLER **Web API**
-3. Projektnamn: `SignalRChat` (viktigt! case-sensitive för namespaces) [web:21]
+3. Projektnamn: `SignalRChat` (viktigt! case-sensitive för namespaces)
 4. Framework: **.NET 8.0** eller **.NET 9.0**
 5. **Create**
 
@@ -46,9 +47,8 @@ cd SignalRChat
 ```bash
 dotnet add package Microsoft.AspNetCore.SignalR
 ```
-[web:22][web:24]
 
-**Obs:** SignalR server library är inkluderat i ASP.NET Core shared framework, så package är oftast inte nödvändigt för senare .NET versioner [web:21].
+**Obs:** SignalR server library är inkluderat i ASP.NET Core shared framework, så package är oftast inte nödvändigt för senare .NET versioner.
 
 ## Steg 3: Skapa SignalR Hub
 
@@ -56,7 +56,6 @@ dotnet add package Microsoft.AspNetCore.SignalR
 ```bash
 mkdir Hubs
 ```
-[web:21]
 
 ### Skapa ChatHub.cs
 Öppna `Hubs/ChatHub.cs` och skapa:
@@ -76,10 +75,10 @@ public class ChatHub : Hub
 ```
 
 **Förklaring:**
-- `Hub` – Base class som hanterar connections, groups och messaging [web:21][web:22]
-- `Clients.All.SendAsync()` – Skicka till ALLA connected clients [web:22][web:23]
-- `"ReceiveMessage"` – Event name som clients lyssnar på [web:22][web:23]
-- Asynchronous för maximera scalability [web:21]
+- `Hub` – Base class som hanterar connections, groups och messaging
+- `Clients.All.SendAsync()` – Skicka till ALLA connected clients
+- `"ReceiveMessage"` – Event name som clients lyssnar på
+- Asynchronous för maximera scalability
 
 ### Alternativ: Bättre Hub med flere funktioner
 ```csharp
@@ -114,7 +113,6 @@ public class RealTimeHub : Hub
     }
 }
 ```
-[web:22]
 
 ## Steg 4: Registrera SignalR i Program.cs
 
@@ -140,8 +138,8 @@ app.Run();
 ```
 
 **Förklaring:**
-- `AddSignalR()` – Registrerar SignalR services i DI-container [web:21][web:22]
-- `MapHub<ChatHub>("/chatHub")` – Lägger till hub endpoint vid `/chatHub` [web:21][web:22]
+- `AddSignalR()` – Registrerar SignalR services i DI-container
+- `MapHub<ChatHub>("/chatHub")` – Lägger till hub endpoint vid `/chatHub`
 
 ### För .NET 5 / older (Startup.cs approach)
 ```csharp
@@ -170,7 +168,6 @@ public class Startup
     }
 }
 ```
-[web:22][web:27]
 
 ## Steg 5: Skapa JavaScript Client
 
@@ -238,10 +235,10 @@ function sendMessage() {
 ```
 
 **Förklaring:**
-- `HubConnectionBuilder()` – Skapar SignalR connection [web:21][web:23]
-- `.withUrl("/chatHub")` – Hub endpoint path (måste matcha `MapHub`) [web:21][web:23]
-- `connection.on()` – Lyssnar på event från server [web:21][web:23]
-- `connection.invoke()` – Skicka method call till hub [web:21][web:23]
+- `HubConnectionBuilder()` – Skapar SignalR connection
+- `.withUrl("/chatHub")` – Hub endpoint path (måste matcha `MapHub`)
+- `connection.on()` – Lyssnar på event från server
+- `connection.invoke()` – Skicka method call till hub
 
 ## Steg 6: Installera SignalR Client Library
 
@@ -254,7 +251,7 @@ function sendMessage() {
    - **Target Location**: `wwwroot/js/signalr/`
    - **Install**
 
-LibMan skapar `wwwroot/js/signalr` folder och kopierar filer [web:21].
+LibMan skapar `wwwroot/js/signalr` folder och kopierar filer.
 
 ### Visual Studio Code (Terminal)
 ```bash
@@ -311,7 +308,7 @@ Application started. Press Ctrl+C to shut down.
 1. **Öppna URL** från address bar i browser
 2. **Kopiera URL** och öppna **annan browser/tab**
 3. **Enter namn och meddelande** → **Send Message**
-4. **Resultat**: Namn och meddelande visas på **BÅDA sidor instantly** [web:21]
+4. **Resultat**: Namn och meddelande visas på **BÅDA sidor instantly**
 
 ### Testa i två terminaler (Console Client)
 ```bash
@@ -324,7 +321,7 @@ cd SignalRClient
 dotnet run
 ```
 
-Type namn och meddelande i console → Meddelande echo tillbaka från hub [web:24].
+Type namn och meddelande i console → Meddelande echo tillbaka från hub.
 
 ## Ytterligare funktioner
 
@@ -344,7 +341,6 @@ public class ChatHub : Hub
     }
 }
 ```
-[web:22]
 
 ### Authentication & Authorization
 ```csharp
@@ -360,7 +356,6 @@ app.MapHub<ChatHub>("/chatHub", builder =>
     builder.RequireAuthorization("SignalRPolicy");
 });
 ```
-[web:22]
 
 ### Client-side: Skicka till ENDAST caller
 ```javascript
@@ -387,6 +382,5 @@ För production med multiple servers, använd **Azure SignalR Service**:
 ```csharp
 builder.Services.AddSignalR().AddAzureSignalR();
 ```
-[web:21]
 
-SignalR är idealisk för live chat, real-time notifications, och dynamic dashboards [web:22][web:23].
+SignalR är idealisk för live chat, real-time notifications, och dynamic dashboards.
