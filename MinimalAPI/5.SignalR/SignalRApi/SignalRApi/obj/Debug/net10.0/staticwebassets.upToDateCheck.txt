@@ -1,0 +1,2 @@
+wwwroot\index.html
+C:\PROJEKT\2026\26014_dotnetUtb\code\API\MetoderAttByggaAPI\MinimalAPI\5.SignalR\SignalRApi\SignalRApi\wwwroot\index.html

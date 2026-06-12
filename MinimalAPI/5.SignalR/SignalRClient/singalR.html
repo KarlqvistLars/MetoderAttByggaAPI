@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SignalR Test</title>
+</head>
+<body>
+
+    <h1>SignalR Test</h1>
+
+    <button id="sendButton">Skicka</button>
+
+    <script src="https://unpkg.com/@microsoft/signalr@10/dist/browser/signalr.min.js"></script>
+
+<script>
+    console.log("1. Scriptet startar");
+    console.log("2. signalR =", window.signalR);
+
+    const connection = new signalR.HubConnectionBuilder()
+        .withUrl("https://localhost:7071/hubs/chat")
+        .withAutomaticReconnect()
+        .build();
+
+    connection.on("ReceiveMessage", (user, message) => {
+        console.log("5. Meddelande mottaget:", user, message);
+        alert(`${user}: ${message}`);
+    });
+
+    connection.start()
+        .then(() => {
+            console.log("3. Ansluten till SignalR");
+        })
+        .catch(err => {
+            console.error("FEL vid anslutning:", err);
+        });
+
+    document.getElementById("sendButton")
+        .addEventListener("click", async () => {
+            console.log("4. Knappen klickad");
+
+            try {
+                await connection.invoke("SendMessage", "Lars", "Hej SignalR!");
+                console.log("6. Meddelande skickat");
+            } catch (err) {
+                console.error("FEL vid skickning:", err);
+            }
+        });
+</script>
+<!--    <script>
+        console.log("Startar SignalR klient...");
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("/hubs/chat")
+            .build();
+
+        connection.on("ReceiveMessage", (user, message) => {
+            console.log(`${user}: ${message}`);
+        });
+
+        connection.start()
+            .then(() => console.log("Ansluten"))
+            .catch(err => console.error(err));
+
+        document.getElementById("sendButton")
+            .addEventListener("click", async () => {
+                await connection.invoke("SendMessage", "Lars", "Hej SignalR!");
+            });
+    </script>-->
+
+</body>
+</html>

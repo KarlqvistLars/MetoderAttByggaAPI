@@ -1,0 +1,93 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\5.SignalR\\SignalRApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A12DBD9-7EE6-4C12-AC40-CCF7FC2F1752}|SignalRApi\\SignalRApi.csproj|c:\\projekt\\2026\\26014_dotnetutb\\code\\api\\metoderattbyggaapi\\minimalapi\\5.signalr\\signalrapi\\signalrapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A12DBD9-7EE6-4C12-AC40-CCF7FC2F1752}|SignalRApi\\SignalRApi.csproj|solutionrelative:signalrapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A12DBD9-7EE6-4C12-AC40-CCF7FC2F1752}|SignalRApi\\SignalRApi.csproj|c:\\projekt\\2026\\26014_dotnetutb\\code\\api\\metoderattbyggaapi\\minimalapi\\5.signalr\\signalrapi\\signalrapi\\wwwroot\\index.html||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{2A12DBD9-7EE6-4C12-AC40-CCF7FC2F1752}|SignalRApi\\SignalRApi.csproj|solutionrelative:signalrapi\\wwwroot\\index.html||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A12DBD9-7EE6-4C12-AC40-CCF7FC2F1752}|SignalRApi\\SignalRApi.csproj|c:\\projekt\\2026\\26014_dotnetutb\\code\\api\\metoderattbyggaapi\\minimalapi\\5.signalr\\signalrapi\\signalrapi\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A12DBD9-7EE6-4C12-AC40-CCF7FC2F1752}|SignalRApi\\SignalRApi.csproj|solutionrelative:signalrapi\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\5.SignalR\\SignalRApi\\SignalRApi\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "SignalRApi\\wwwroot\\index.html",
+              "ToolTip": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\5.SignalR\\SignalRApi\\SignalRApi\\wwwroot\\index.html",
+              "RelativeToolTip": "SignalRApi\\wwwroot\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2026-06-11T20:55:21.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\5.SignalR\\SignalRApi\\SignalRApi\\Program.cs",
+              "RelativeDocumentMoniker": "SignalRApi\\Program.cs",
+              "ToolTip": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\5.SignalR\\SignalRApi\\SignalRApi\\Program.cs",
+              "RelativeToolTip": "SignalRApi\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T19:58:24.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\5.SignalR\\SignalRApi\\SignalRApi\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "SignalRApi\\Hubs\\ChatHub.cs",
+              "ToolTip": "C:\\PROJEKT\\2026\\26014_dotnetUtb\\code\\API\\MetoderAttByggaAPI\\MinimalAPI\\5.SignalR\\SignalRApi\\SignalRApi\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "SignalRApi\\Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T20:00:19.359Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 194,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
