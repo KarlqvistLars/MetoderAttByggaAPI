@@ -7,7 +7,7 @@ Kör filen gRPC_Client.exe från:
 cd \MetoderAttByggaAPI\MinimalAPI\4.gRPC\gRPC_Client\gRPC_Client\bin\Debug\net10.0\
 .\gRPC_Client.exe
 
-Då skall svaret bli: Hello Lars <br> då Namn hämtas från funktionen SayHelloAsync();
+Då skall svaret bli: **Hello Lars** <br> då Namn hämtas från funktionen SayHelloAsync();
 
 ```
 var reply = await client.SayHelloAsync(
@@ -15,4 +15,4 @@ var reply = await client.SayHelloAsync(
          Name = "Lars"
     });
 ```
-
+Granska koden för att förstå hur den fungerar.
