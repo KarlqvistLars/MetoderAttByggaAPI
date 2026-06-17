@@ -1,8 +1,13 @@
 # Sätta upp ett Minimal API i ASP.NET Core
 
 ## Vad är ett Minimal API?
-Minimal APIs är en lättviktig approach för att bygga HTTP-API'er med ASP.NET Core. De är designade för att vara enkla och lightweight med minimala filer och dependencies.
+Minimal APIs är en lättviktig approach för att bygga HTTP-API'er med ASP.NET Core. De är designade för att vara enkla och lightweight med minimala filer och dependencies.<br>
+Se även Microsofts tutorial för ytterligare [info](https://learn.microsoft.com/en-us/aspnet/core/tutorials/min-web-api?view=aspnetcore-10.0&tabs=visual-studio).
+```
+Minimal APIs are architected to create HTTP APIs with minimal dependencies. They're ideal for microservices and apps that want to include only the minimum files, features, and dependencies in ASP.NET Core.
 
+This tutorial teaches the basics of building a Minimal API with ASP.NET Core. Another approach to creating APIs in ASP.NET Core is to use controllers. For help with choosing between Minimal APIs and controller-based APIs, see APIs overview. For a tutorial on creating an API project based on controllers that contains more features, see Create a web API.
+```
 ## Förutsättningar
 - **.NET 8 SDK** (eller senare) installerat
 - **Code Editor**: Visual Studio Code eller Visual Studio 2022
