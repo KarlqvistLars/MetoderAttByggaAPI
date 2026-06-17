@@ -1,17 +1,17 @@
 # Sätta upp ett Minimal API i ASP.NET Core
 
 ## Vad är ett Minimal API?
-Minimal APIs är en lättviktig approach för att bygga HTTP-API'er med ASP.NET Core. De är designade för att vara enkla och lightweight med minimala filer och dependencies [web:2][web:10].
+Minimal APIs är en lättviktig approach för att bygga HTTP-API'er med ASP.NET Core. De är designade för att vara enkla och lightweight med minimala filer och dependencies.
 
 ## Förutsättningar
-- **.NET 8 SDK** (eller senare) installerat [web:2]
-- **Code Editor**: Visual Studio Code eller Visual Studio 2022 [web:2]
+- **.NET 8 SDK** (eller senare) installerat
+- **Code Editor**: Visual Studio Code eller Visual Studio 2022
 
 ## Steg 1: Skapa nytt projekt
 ```bash
 dotnet new web -n MyFirstMinimalApi
 ```
-Detta skapar en ny ASP.NET Core-projektmapp [web:2].
+Detta skapar en ny ASP.NET Core-projektmapp.
 
 ## Steg 2: Navigera till projektet
 ```bash
@@ -31,9 +31,9 @@ app.Run();
 ```
 
 **Förklaring:**
-- `WebApplication.CreateBuilder(args)` – Initierar byggaren för webbcerationen [web:2]
-- `app.MapGet("/", ...)` – Definierar GET-endpoint vid root URL [web:2]
-- `app.Run()` – Kör applikationen [web:2]
+- `WebApplication.CreateBuilder(args)` – Initierar byggaren för webbcerationen
+- `app.MapGet("/", ...)` – Definierar GET-endpoint vid root URL
+- `app.Run()` – Kör applikationen
 
 ## Steg 4: Kör API-et
 ```bash
@@ -49,7 +49,7 @@ Application started. Press Ctrl+C to shut down.
 [web:2]
 
 ## Steg 5: Testa i browser
-Öppna `http://localhost:5000` – du ser "Welcome to your first Minimal API!" [web:2]
+Öppna `http://localhost:5000` – du ser "Welcome to your first Minimal API!"
 
 ## Tillägga fler endpoints
 
@@ -57,7 +57,7 @@ Application started. Press Ctrl+C to shut down.
 ```csharp
 app.MapGet("/hello/{name}", (string name) => $"Hello, {name}!");
 ```
-Testa: `http://localhost:5000/hello/John` → "Hello, John!" [web:2]
+Testa: `http://localhost:5000/hello/John` → "Hello, John!"
 
 ### JSON-response
 ```csharp
@@ -78,11 +78,10 @@ app.MapPost("/items", (string item) => $"Created: {item}");
 app.MapPut("/items/{id}", (int id, string item) => $"Updated {id}: {item}");
 app.MapDelete("/items/{id}", (int id) => $"Deleted {id}");
 ```
-[web:2][web:10]
 
 ## Ytterligare funktioner
-- **Authorization**: `.RequireAuthorization()` för att säkra endpoints [web:3]
-- **Endpoint-gruppering**: `app.MapGroup("/api")` för att organisera routes [web:9]
-- **Authentication/JWT**: `builder.Services.AddAuthentication()` [web:3]
+- **Authorization**: `.RequireAuthorization()` för att säkra endpoints
+- **Endpoint-gruppering**: `app.MapGroup("/api")` för att organisera routes
+- **Authentication/JWT**: `builder.Services.AddAuthentication()`
 
-Minimal APIs är idealiska för microservices och applikationer som vill inkludera endast minimum av files, features och dependencies [web:5].
+Minimal APIs är idealiska för microservices och applikationer som vill inkludera endast minimum av files, features och dependencies.
